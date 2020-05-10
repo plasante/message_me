@@ -25,7 +25,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'semantic-ui-sass'
 gem 'jquery-rails'
-gem 'redis'
+#gem 'redis'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -59,6 +59,7 @@ end
 
 group :production do
   gem 'pg' 
+  gem 'redis'
 end
 
 group :test do
