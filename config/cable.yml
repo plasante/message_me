@@ -6,6 +6,5 @@ test:
 
 production:
   adapter: redis
-  redis://redistogo:e712a1fd96416d514fdbc2523cee36f7@pike.redistogo.com:10519/
-
+  url: redis://redistogo:e712a1fd96416d514fdbc2523cee36f7@pike.redistogo.com:10519/
   channel_prefix: message_me_production
